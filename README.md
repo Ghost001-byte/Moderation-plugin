@@ -1,6 +1,6 @@
 ---
 
-# Moderation Plugin ------ scarica il plugin da spigot: https://www.spigotmc.org/resources/moderation-plugin.131138/ 
+# Moderation Plugin 
 
 **Moderation Plugin** è una soluzione leggera ed efficace per la gestione della moderazione sui server Minecraft (versione 1.21). Permette agli amministratori di gestire sanzioni come Ban, Mute e Blacklist in modo rapido e persistente.
 
@@ -82,6 +82,7 @@ Il plugin è scritto in **Java** utilizzando le API di **Spigot/Paper**.
 
 ---
 
-**Sviluppato con ❤️ da KernelPanic**
+**Sviluppato con ❤️ da KernelPanic** 
+**Scarica il plugin da spigot: https://www.spigotmc.org/resources/moderation-plugin.131138/** 
 
 ---
