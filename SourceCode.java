@@ -16,21 +16,18 @@ import java.util.Set;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
-/**
- * Plugin di Moderazione per Minecraft 1.21
- * Gestisce Ban, Mute e Blacklist.
- */
+
 public class ModerationPlugin extends JavaPlugin implements Listener, CommandExecutor {
 
     private Set<UUID> mutedPlayers = new HashSet<>();
 
     @Override
     public void onEnable() {
-        // Carica la configurazione di default
+        
         saveDefaultConfig();
         loadMutes();
         
-        // Registrazione dei comandi
+        
         getCommand("ban").setExecutor(this);
         getCommand("unban").setExecutor(this);
         getCommand("mute").setExecutor(this);
@@ -38,7 +35,7 @@ public class ModerationPlugin extends JavaPlugin implements Listener, CommandExe
         getCommand("blacklist").setExecutor(this);
         getCommand("unblacklist").setExecutor(this);
         
-        // Registrazione degli eventi
+        
         getServer().getPluginManager().registerEvents(this, this);
         
         getLogger().info("ModerationPlugin abilitato correttamente!");
